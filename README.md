@@ -30,4 +30,4 @@ HTML, CSS, JavaScript – Lightweight frontend
 Python PDF libraries – For merge, split, and compression
 
 ### Architecture
-<img src="diagram.jpg" style="width:75%;" alt="Diagram">
+<img src="diagram.png" style="width:75%;" alt="Diagram">
