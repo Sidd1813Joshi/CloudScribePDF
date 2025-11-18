@@ -29,22 +29,5 @@ HTML, CSS, JavaScript – Lightweight frontend
 
 Python PDF libraries – For merge, split, and compression
 
-#### Project Architecture
-User Frontend
-     │
-     ▼
-API Gateway (POST Request)
-     │
-     ▼
-AWS Lambda 
-  ├── Generates Pre-Signed URL
-  ├── Handles Upload Metadata
-  └── Processes (Merge | Split | Compress)
-     │
-     ▼
-Amazon S3
-  ├── uploads/ (input PDFs)
-  └── outputs/ (processed PDFs)
-     │
-     ▼
-User downloads final PDF
+### Architecture
+<img src="diagram.jpg" style="width:75%;" alt="Diagram">
